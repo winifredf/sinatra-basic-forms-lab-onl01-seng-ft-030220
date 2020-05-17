@@ -8,6 +8,7 @@ class Puppy < Sinatra::Base
     @name = :name
     @breed = :breed
     @age = :age
+  end
   
 end
   
