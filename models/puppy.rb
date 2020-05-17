@@ -10,5 +10,9 @@ class Puppy < Sinatra::Base
     @age = params[:age]
   end
   
+  def self
+    @@all
+  end
+  
 end
   
